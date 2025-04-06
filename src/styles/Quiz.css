@@ -1,0 +1,40 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-container {
+  margin-bottom: 10px;
+}
+
+.progress-text {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.progress-bar {
+  height: 15px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4CAF50;
+  transition: width 0.3s ease;
+}
+
+.score-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4CAF50;
+  background-color: #f0f8f0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dashed #4CAF50;
+  display: inline-block;
+  margin: 0 auto;
+}

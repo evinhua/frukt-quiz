@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import Quiz from './components/Quiz';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Frukt & Grönsaks Quiz</h1>
+        <p>För små barn att lära sig om frukter och grönsaker</p>
       </header>
+      <main>
+        <Quiz />
+      </main>
+      <footer>
+        <p>Ett roligt spel för 3-åringar</p>
+      </footer>
     </div>
   );
 }
