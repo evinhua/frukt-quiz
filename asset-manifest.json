@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frukt-quiz/static/css/main.709b44bd.css",
+    "main.js": "/frukt-quiz/static/js/main.58b13ace.js",
+    "index.html": "/frukt-quiz/index.html",
+    "main.709b44bd.css.map": "/frukt-quiz/static/css/main.709b44bd.css.map",
+    "main.58b13ace.js.map": "/frukt-quiz/static/js/main.58b13ace.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.709b44bd.css",
+    "static/js/main.58b13ace.js"
+  ]
+}
